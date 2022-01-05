@@ -12,13 +12,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<div style="width: 100%;">
-  ![june20516's github stats](https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true)
-  [![june20516's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=june20516&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/june20516)
-</div>
+
+<!-- stats https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_kr.md -->
+[![Bran's GitHub stats](https://github-readme-stats.vercel.app/api?username=june20516)](https://github.com/june20516/github-readme-stats)
+
+![Bran's github stats](https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true)![Bran's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=june20516&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)
 
 - 🔭 I’m currently working on gomi store in gomicorporation
 - 🔨 I'm using `Ruby` and `Ruby on rails` for now
 - 🌱 I’m currently learning `nest.js`
-
-![trophy](https://github-profile-trophy.vercel.app/?username=june20516)
