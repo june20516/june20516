@@ -12,8 +12,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![본인ID's github stats](https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true)
-![본인ID's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=june20516ID&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/june20516)
+![june20516's github stats](https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true)
+[![june20516's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=june20516ID&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/june20516)
 
 - 🔭 I’m currently working on gomi store in gomicorporation
 - 🌱 I’m currently learning nest.js
