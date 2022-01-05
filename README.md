@@ -14,7 +14,16 @@ Here are some ideas to get you started:
 -->
 
 <!-- stats https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_kr.md -->
-![Bran's github stats](https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true&count_private=true&theme=tokyonight)![Bran's lang stats](https://github-readme-stats.vercel.app/api/top-langs/?username=june20516&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact&count_private=true&theme=tokyonight)
+<!-- <a href="https://github.com/june20516">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true&count_private=true&theme=tokyonight&hide=stars" />
+</a>
+<br/>
+<a href="https://github.com/june20516">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=june20516&show_icons=true&title_color=004386&icon_color=004386&layout=compact&count_private=true&theme=tokyonight" />
+</a> -->
+
+![Bran's github stats](https://github-readme-stats.vercel.app/api?username=june20516&show_icons=true&count_private=true&theme=tokyonight&hide=stars)
+![Bran's lang stats](https://github-readme-stats.vercel.app/api/top-langs/?username=june20516&show_icons=true&title_color=004386&icon_color=004386&layout=compact&count_private=true&theme=tokyonight)
 
 - 🔭 I’m currently working on gomi store in gomicorporation
 - 🔨 I'm using `Ruby` and `Ruby on rails` for now
