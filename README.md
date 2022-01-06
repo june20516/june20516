@@ -25,3 +25,5 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working on gomi store in gomicorporation
 - 🔨 I'm using `Ruby` and `Ruby on rails` for now
 - 🌱 I’m currently learning `nest.js`
+
+<script src="https://gist.github.com/june20516/9224e3eb238f198be9d737c7d34df37f.js"></script>
