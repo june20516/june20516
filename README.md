@@ -22,6 +22,6 @@ Here are some ideas to get you started:
 
 
 - 🔭 I’m currently working on : gomi mall in gomi corporation
-- 🔨 I'm using : `Javascript` and `Node.js` for now
+- 🔨 I'm using : `Vue.js` for now
 - 🌱 I’m currently learning : `nest.js` and `postre SQL`
 - 📫 How to reach me : contact to june20516@gmail.com
