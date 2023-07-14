@@ -21,7 +21,6 @@ Here are some ideas to get you started:
 </a>
 
 
-- 🔭 I’m currently working on : gomi mall in gomi corporation
-- 🔨 I'm using : `Vue.js` for now
-- 🌱 I’m currently learning : `nest.js` and `postre SQL`
+- 🔭 I’m finding new job now
+- 🌱 I’m currently learning & using : `nextjs` and `reactjs`
 - 📫 How to reach me : contact to june20516@gmail.com
