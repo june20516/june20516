@@ -21,6 +21,6 @@ Here are some ideas to get you started:
 </a>
 
 
-- 🔭 I’m finding new job now
-- 🌱 I’m currently learning & using : `nextjs` and `reactjs`
+- 🧑‍💻 I’m working at Ezl Labs
+- 🌱 I’m currently using : `React Native`, `ReactJS` and `Remix Framework`
 - 📫 How to reach me : contact to june20516@gmail.com
