@@ -1,0 +1,25 @@
+[init]
+	defaultBranch = main
+
+[includeIf "gitdir:~/personal/"]
+	path = ~/.gitconfig-personal
+[includeIf "gitdir:~/repositories/"]
+	path = ~/.gitconfig-working
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[commit]
+        gpgsign = true
+[gpg]
+        program = /opt/homebrew/bin/gpg
+
+[alias]
+    sw = switch
+    br = branch
+    cm = commit
+    st = status
+    aa = add .
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	publish = !git push -u origin $(git branch --show-current)
