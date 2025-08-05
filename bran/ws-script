@@ -1,0 +1,74 @@
+tell application "Finder"
+	activate
+end tell
+
+tell application "System Events"
+	activate
+end tell
+
+set jsScript to "
+var app = Application.currentApplication();
+app.includeStandardAdditions = true;
+
+// 초기 데이터
+var projects = ['backoffice', 'app', 'design', 'generator', 'mozl', 'outpost'];
+
+// 사용자 입력 받기
+var userInput = app.displayDialog('Enter your project keyword:', {
+    defaultAnswer: '',
+    buttons: ['OK', 'Cancel'],
+    defaultButton: 'OK'
+});
+
+// 사용자가 입력한 값
+var keyword = userInput.textReturned;
+
+// 키워드에 따라 필터링
+var filteredProjects = projects.filter(function(project) {
+    return project.toLowerCase().includes(keyword.toLowerCase());
+});
+
+// 결과 처리
+if (filteredProjects.length === 0) {
+    app.displayDialog('No matching project found for keyword: ' + keyword, { buttons: ['OK'] });
+    null; // 결과 없음
+} else if (filteredProjects.length === 1) {
+    filteredProjects[0]; // 한 개만 있으면 바로 선택
+} else {
+    // 여러 개일 경우 선택지 제공
+    app.chooseFromList(filteredProjects, {
+        withPrompt: 'Multiple matches found. Select one:',
+        multipleSelectionsAllowed: false
+    });
+}
+"
+
+-- JavaScript 실행
+set userInput to (do shell script "osascript -l JavaScript -e " & quoted form of jsScript)
+
+
+
+if userInput is equal to "backoffice" then
+	set projectPath to "~/repositories/ezl-backoffice"
+else if userInput is equal to "app" then
+	set projectPath to "~/repositories/ezl-rn-app"
+else if userInput is equal to "design" then
+	set projectPath to "~/repositories/ezl-design-system"
+else if userInput is equal to "generator" then
+	set projectPath to "~/repositories/ezl-openapi-generator"
+else if userInput is equal to "mozl" then
+	set projectPath to "~/repositories/ezl-rn-mozl"
+else if userInput is equal to "outpost" then
+	set projectPath to "~/repositories/ezl-outpost"
+
+else
+	display dialog "No matching project for keyword: " & userInput buttons {"OK"} default button 1
+	return
+end if
+
+-- 홈 디렉토리로 변환
+set homeDirectory to (POSIX path of (path to home folder))
+set absolutePath to homeDirectory & text 2 thru -1 of projectPath -- `~` 제거 후 홈 디렉토리 붙이기
+
+
+do shell script "/Users/bran/.codeium/windsurf/bin/windsurf " & quoted form of absolutePath
