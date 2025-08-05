@@ -22,4 +22,6 @@
     st = status
     aa = add .
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	publish = !git push -u origin $(git branch --show-current)
+		publish = !git push -u origin $(git branch --show-current)
+    pruned-list = "!~/.git-tools/.git-pruned-list.sh"
+    pruned-clean = "!~/.git-tools/.git-pruned-clean.sh"
