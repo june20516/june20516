@@ -7,6 +7,13 @@ RED='\033[0;31m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
+# --- Git 저장소 확인 ---
+git rev-parse --is-inside-work-tree > /dev/null 2>&1
+if [ $? -ne 0 ]; then
+    echo -e "${RED}Git 저장소가 아닙니다${NC}"
+    exit 1
+fi
+
 # --- 스크립트 시작 ---
 echo -e "${CYAN}🧹 불필요한 로컬 브랜치 정리 시작...${NC}"
 
