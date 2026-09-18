@@ -24,3 +24,5 @@ Here are some ideas to get you started:
 - 🧑‍💻 I’m working at Ezl Labs
 - 🌱 I’m currently using : `React Native`, `ReactJS`
 - 📫 How to reach me : contact to june20516@gmail.com
+- 📝 I write at [Bran's codeverse](https://june20516.github.io/)
+- 🎮 I built [tagatigi](https://tagatigi.xyz) — drop beats onto your audio and play it in the browser
